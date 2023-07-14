@@ -1,5 +1,6 @@
 const express = require ('express');
 const path = require('path');
+const dotenv = require('dotenv').config();
 
 const app = express();
 
@@ -18,6 +19,6 @@ app.get("/register.html", (req, res) =>{
 app.get("/loguin.html", (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./view/loguin.html"))
 });
-app.listen (3000, () => {
-    console.log('servidor corriendo en el puerto 3000')
-});
+ app.listen(process.env.PORT), () => {
+    console.log('servidor corriendo en el puerto 3000');
+ }

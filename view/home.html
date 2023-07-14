@@ -7,7 +7,9 @@
   <title>Mi página estilo MercadoLibre</title>
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
   <script src="https://kit.fontawesome.com/157adaf284.js" crossorigin="anonymous"></script>
 </head>
 
@@ -60,6 +62,7 @@
         <img class="imagen" src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
         <div class="descripcion">
           <p class="fas fa-truck"></p>
+          <i class="fa-duotone fa-truck-fast" style="--fa-primary-color: #00ff04; --fa-secondary-color: #000000;"></i>
           <p class="precios"> $6.770<i class="descuentos">40% Off</i></p>
           <p class="elemento">Cafetera Moulinex</p>
         </div>
@@ -128,27 +131,31 @@
 
   </main>
   <footer>
-    <div>
-      <div class="vistaFooter">
-          <p class="fas fa-credit-card"></p>
-          <h4>Pagá con tarjeta o efectivo</h4> 
-          <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-      </div>   
-      <div class="vistaFooter">
-          <p class="fas fa-gift"></p>
-          <h4>Envío gratis desde $ 2.500</h4> 
-          <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-      </div>  
-      <div class="vistaFooter">  
-          <p class="fas fa-user-shield"></p>
-          <h4>Seguridad, de principio a fin</h4>
-          <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-      </div> 
+    <div class="elemento-footer">
+      <div class="info-tarjeta">
+        <div class="img-footer">
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <h2>Paga con tarjeta o efectivo</h2>
+        <p>Con MercadoLiebreCash tenes cuotas sin interes con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
       </div>
-      <div class="copyright"> 
-          <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        <div class="info-tarjeta">
+        <div class="imagen-footer">
+          <i class="fa-solid fa-gift"></i>
+        </div>
+        <h2>Envío gratis desde $ 2.500</h2>
+        <p>Solo por estar registrado en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
       </div>
-      </footer>
+        <div class="info-tarjeta">
+          <div class="imagen-footer">
+          <i class="fa-solid fa-user-shield"></i>
+        </div>
+        <h2>Seguridad, de principio a fin</h2>
+        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre, no hay nada que no puedas hacer, porque estás siempre protegido. </p>
+      </div>
+    </div>
+
+  </footer>
 </body>
 
 </html>
